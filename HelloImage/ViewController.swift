@@ -15,11 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         myImageView.image = UIImage(named: "mypic1")
-        
-//        if let image = Bundle.main.path(forResource: "test", ofType: "jpg"){
-//            myImageView.image = UIImage.init(contentsOfFile: image)
-//        }
-        
+        self.view.backgroundColor = UIColor(named: "myColor")
         
     }
 
