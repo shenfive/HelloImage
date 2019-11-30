@@ -14,9 +14,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let image = Bundle.main.path(forResource: "test", ofType: "jpg"){
-            myImageView.image = UIImage.init(contentsOfFile: image)
-        }
+        myImageView.image = UIImage(named: "mypic1")
+        
+//        if let image = Bundle.main.path(forResource: "test", ofType: "jpg"){
+//            myImageView.image = UIImage.init(contentsOfFile: image)
+//        }
         
         
     }
